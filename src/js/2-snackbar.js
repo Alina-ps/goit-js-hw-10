@@ -18,7 +18,6 @@ form.addEventListener('submit', event => {
       }
     }, delay);
   });
-  2000;
   promise
     .then(value => {
       iziToast.success({
